@@ -1,0 +1,23 @@
+# Includes everything from production requirements
+-r requirements.txt
+
+# === Development & Debugging ===
+ipython
+jupyterlab
+ipykernel
+pdbpp
+
+# === Linting & Formatting ===
+black
+flake8
+isort
+
+# === Testing ===
+pytest
+pytest-dash
+
+# === Environment Management ===
+python-dotenv
+
+# === Live Reload (optional) ===
+watchdog
